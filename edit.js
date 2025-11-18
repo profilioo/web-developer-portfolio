@@ -1,9 +1,7 @@
 const user = {
     "name": "Wasif Ali",
     "about": `
-    Hello I am Wasif a Frontend Web Developer with over 5 years of experience creating engaging 
-        and responsive web experiences. Specialized in building modern web applications 
-        using the latest technologies and best practices.
+    Hi! I’m Wasif, a frontend web developer who loves creating clean, fast, and modern websites. I focus on building user-friendly designs, responsive layouts, and smooth web experiences using HTML, CSS, JavaScript, and Bootstrap.
     `,
     "email":"mailprofilioo@gmial.com",
     "phone":"+92 3290487854",
@@ -20,4 +18,5 @@ document.addEventListener("DOMContentLoaded",()=>{
     document.querySelector(".user-address").innerHTML = user.address;
     document.querySelector(".user-phone").innerHTML = user.phone;
     document.querySelector(".user-email").innerHTML = user.email;
+
 })
